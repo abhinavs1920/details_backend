@@ -6,7 +6,7 @@ This project is a Node.js backend that utilizes MongoDB to manage information ab
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
+    git clone https://github.com/abhinavs1920/details_backend.git
     cd yourrepository
     ```
 

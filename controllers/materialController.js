@@ -27,7 +27,7 @@ const createMaterial = async (req, res) => {
         const newMaterial = await materialService.createMaterial(req.body);
         res.status(201).json(newMaterial);
     } catch (err) {
-        res.status(500).json({ message: err.message });
+        
     }
 };
 

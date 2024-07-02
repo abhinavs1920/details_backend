@@ -2,7 +2,7 @@
 const Material = require('../models/material');
 
 const getMaterials = async () => {
-    return await Material.find({}, '-imageUrl');
+    return await Material.find({});
 };
 
 const getMaterialById = async (id) => {
@@ -10,6 +10,7 @@ const getMaterialById = async (id) => {
 };
 
 const createMaterial = async (materialData) => {
+    console.log({materialData});
     const material = new Material(materialData);
     return await material.save();
 };
